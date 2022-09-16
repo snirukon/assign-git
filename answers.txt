@@ -1,4 +1,17 @@
 • What is a gitignore file and what should it include for a Java project? 
+
+
+When committing your project to the GitHub repository, the.gitignore file instructs Git which files to ignore. Your repository's root directory contains gitignore.The.gitignore global file will be generated as a result. That file is now editable in the same manner as a local.gitignore file. The files and folders listed in the global.gitignore file will be disregarded by all of your Git repositories.
+• What does fast-forward in git mean? 
+
+The tip of your main branch is moved forward to the end of your feature branch using fast-forward merges. This cleanly integrates your feature branch back into your main branch while maintaining the sequential order of all contributions made there.
+
+• Why should you have different branches? 
+
+Using branches, you can securely experiment with new ideas, develop functionality, or address errors in a specific part of your repository. A branch is always made from an existing branch. Normally, you could build a new branch off of the repository's default branch.
+
+• In a project how many remote Git repositories do you usually have? 
+We usually have one repository in a remote git but in the case of local git we have multiple repositories.
 When committing your project to the GitHub repository, the.gitignore file instructs Git which files to ignore. Your repository's root directory contains gitignore.The.gitignore global file will be generated as a result. That file is now editable in the same manner as a local.gitignore file. The files and folders listed in the global.gitignore file will be disregarded by all of your Git repositories.
 • What does fast-forward in git mean? 
 The tip of your main branch is moved forward to the end of your feature branch using fast-forward merges. This cleanly integrates your feature branch back into your main branch while maintaining the sequential order of all contributions made there.
@@ -6,3 +19,4 @@ The tip of your main branch is moved forward to the end of your feature branch u
 sing branches, you can securely experiment with new ideas, develop functionality, or address errors in a specific part of your repository. A branch is always made from an existing branch. Normally, you could build a new branch off of the repository's default branch.
 • In a project how many remote Git repositories do you usually have? 
 We usually have one repository in a remote git but in the case of local git we have multiple repositories.
+
